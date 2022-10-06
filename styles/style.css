@@ -629,6 +629,19 @@ h3.my-profession{
     text-align: justify;
     color: var(--text-black-700);
 }
+.about .about-content .timeline ul li{
+
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: var(--text-black-700);
+    list-style-type:disc;
+    
+}
+.about .about-content .timeline ul li::marker{
+
+    color: var(--skin-color);
+}
 
 /* Services */
 
